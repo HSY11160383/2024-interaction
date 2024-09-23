@@ -1,0 +1,10 @@
+//week03-5-2
+size (450,440);
+background(220,179,92);
+strokeWeight(2);
+noFill();
+for(int i=0; i<8; i++){
+  for(int j=0; j<8; j++){
+      rect(25+ j*50, 25+ i*50, 50, 50);
+    }
+  }
